@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "yarn upgrade",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "npm:@nuxt/test-utils-edge",
+    "nuxt": "3.0.0-rc.6",
+    "vitest": "^0.20.3"
+  }
+}
